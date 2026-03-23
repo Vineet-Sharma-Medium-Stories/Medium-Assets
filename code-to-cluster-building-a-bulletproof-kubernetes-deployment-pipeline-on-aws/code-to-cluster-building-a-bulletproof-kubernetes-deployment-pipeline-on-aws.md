@@ -41,7 +41,7 @@ While GitHub is the ubiquitous choice, AWS offers **AWS CodeCommit** as a fully-
 
 **The Script (The Trigger):**
 There isn't a "script" for a commit, but there is a webhook configuration. In your GitHub repo settings, you point to your CI server.
-
+<pre><code class="language-csharp">
 ```bash
 # Conceptual Webhook Payload (Sent on git push)
 # This tells Jenkins or GitHub Actions: "Something changed in the main branch, start the job!"
@@ -51,7 +51,7 @@ There isn't a "script" for a commit, but there is a webhook configuration. In yo
   "commits": [{"id": "abc123...", "message": "Update feature X"}]
 }
 ```
-
+</code></pre>
 ---
 
 ## Phase 2: The CI Pipeline (The Build)
@@ -70,6 +70,7 @@ On AWS, you have multiple choices:
 Let's look at multiple examples of the same pipeline:
 
 **Example 1: AWS CodeBuild (`buildspec.yml`)**
+<pre><code class="language-yaml">
 ```yaml
 # buildspec.yml
 version: 0.2
@@ -172,7 +173,7 @@ jobs:
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:latest
 ```
-
+</code></pre>
 **Example 3: Jenkins Pipeline (`Jenkinsfile`)**
 ```groovy
 pipeline {
@@ -235,7 +236,7 @@ After building the image, we need a place to store it securely:
 
 
 **The CLI commands** (comparing ECR vs Docker Hub):
-
+<pre><code class="language-csharp">
 ```csharp
 # Amazon ECR
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 123456789012.dkr.ecr.us-east-1.amazonaws.com
@@ -253,7 +254,7 @@ docker login harbor.yourcompany.com
 docker build -t harbor.yourcompany.com/library/my-app:latest .
 docker push harbor.yourcompany.com/library/my-app:latest
 ```
-
+</code></pre>
 ### Component: Security Scanning Tools
 
 Security isn't optional—it's baked into every stage:
