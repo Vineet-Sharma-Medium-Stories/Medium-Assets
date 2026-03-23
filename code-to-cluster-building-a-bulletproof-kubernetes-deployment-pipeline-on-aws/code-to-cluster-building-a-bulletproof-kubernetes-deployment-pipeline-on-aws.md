@@ -236,7 +236,7 @@ After building the image, we need a place to store it securely:
 
 **The CLI commands** (comparing ECR vs Docker Hub):
 
-```bash
+```csharp
 # Amazon ECR
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 123456789012.dkr.ecr.us-east-1.amazonaws.com
 docker build -t my-app .
