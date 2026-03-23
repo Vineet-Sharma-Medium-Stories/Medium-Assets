@@ -42,7 +42,7 @@ While GitHub is the ubiquitous choice, AWS offers **AWS CodeCommit** as a fully-
 **The Script (The Trigger):**
 There isn't a "script" for a commit, but there is a webhook configuration. In your GitHub repo settings, you point to your CI server.
 <pre><code class="language-csharp">
-```bash
+
 # Conceptual Webhook Payload (Sent on git push)
 # This tells Jenkins or GitHub Actions: "Something changed in the main branch, start the job!"
 {
@@ -50,7 +50,7 @@ There isn't a "script" for a commit, but there is a webhook configuration. In yo
   "repository": {"name": "my-app", "url": "https://github.com/user/my-app"},
   "commits": [{"id": "abc123...", "message": "Update feature X"}]
 }
-```
+
 </code></pre>
 ---
 
@@ -71,7 +71,7 @@ Let's look at multiple examples of the same pipeline:
 
 **Example 1: AWS CodeBuild (`buildspec.yml`)**
 <pre><code class="language-yaml">
-```yaml
+
 # buildspec.yml
 version: 0.2
 
@@ -105,7 +105,8 @@ artifacts:
     - imagedefinitions.json
     - kubernetes/deployment.yaml
     - kubernetes/service.yaml
-```
+
+</code></pre>
 
 **Example 2: GitHub Actions (`.github/workflows/ci.yml`)**
 ```yaml
@@ -173,7 +174,7 @@ jobs:
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:latest
 ```
-</code></pre>
+  
 **Example 3: Jenkins Pipeline (`Jenkinsfile`)**
 ```groovy
 pipeline {
