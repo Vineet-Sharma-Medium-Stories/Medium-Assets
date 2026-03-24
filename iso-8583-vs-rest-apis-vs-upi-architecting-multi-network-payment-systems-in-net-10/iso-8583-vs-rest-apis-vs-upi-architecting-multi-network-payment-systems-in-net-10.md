@@ -1,7 +1,8 @@
 # ISO 8583 vs. REST APIs vs. UPI: Architecting Multi-Network Payment Systems in .NET 10
 
 ## Multi-network payment architecture: ISO 8583 for card schemes (VisaNet, Mastercard, RuPay) and REST/JSON for UPI real-time payments — implemented with .NET 10 source generators, Native AOT, and distributed tracing
-![alt text](<ISO 8583 vs. REST APIs vs. UPI: Architecting Multi-Network Payment Systems in .NET 10 - 2.png.png.png>)
+![alt text](https://raw.githubusercontent.com/Vineet-Sharma-Medium-Stories/Medium-Assets/refs/heads/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/images/ISO%208583%20vs.%20REST%20APIs%20vs.%20UPI%3A%20Architecting%20Multi-Network%20Payment%20Systems%20in%20.NET%2010.png)
+
 
 ## Introduction: The Architectural Decision
 
