@@ -53,7 +53,7 @@ Understanding payment networks is crucial for architects designing payment syste
 
 **Architecture**: Centralized switched networks designed specifically for card-based payments
 
-![**Architecture**: Centralized switched networks designed specifically for card-based payments](images/table_01_architecture-centralized-switched-networks-de-dc84.png)
+![**Architecture**: Centralized switched networks designed specifically for card-based payments](https://raw.githubusercontent.com/Vineet-Sharma-Medium-Stories/Medium-Assets/refs/heads/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/images/table_01_architecture-centralized-switched-networks-de-dc84.png)
 
 [View Source](https://github.com/Vineet-Sharma-Medium-Stories/Medium-Assets/blob/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/table_01_architecture-centralized-switched-networks-de-dc84.md)
 
@@ -62,7 +62,7 @@ Understanding payment networks is crucial for architects designing payment syste
 ```mermaid
 ```
 
-![**Transaction Flow**:](images/diagram_01_transaction-flow.png)
+![**Transaction Flow**:](https://raw.githubusercontent.com/Vineet-Sharma-Medium-Stories/Medium-Assets/refs/heads/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/images/diagram_01_transaction-flow.png)
 
 *[View Source](https://github.com/Vineet-Sharma-Medium-Stories/Medium-Assets/blob/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/diagram_01_transaction-flow.md)*
 
@@ -84,14 +84,14 @@ Understanding payment networks is crucial for architects designing payment syste
 ```mermaid
 ```
 
-![**Architectural Principles**:](images/diagram_02_architectural-principles.png)
+![**Architectural Principles**:](https://raw.githubusercontent.com/Vineet-Sharma-Medium-Stories/Medium-Assets/refs/heads/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/images/diagram_02_architectural-principles.png)
 
 [View Source](https://github.com/Vineet-Sharma-Medium-Stories/Medium-Assets/blob/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/diagram_02_architectural-principles.md)
 
 
 **Architectural Differences from VisaNet**:
 
-![**Architectural Differences from VisaNet**:](images/table_02_architectural-differences-from-visanet-f865.png)
+![**Architectural Differences from VisaNet**:](https://raw.githubusercontent.com/Vineet-Sharma-Medium-Stories/Medium-Assets/refs/heads/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/images/table_02_architectural-differences-from-visanet-f865.png)
 
 [View Source](https://github.com/Vineet-Sharma-Medium-Stories/Medium-Assets/blob/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/table_02_architectural-differences-from-visanet-f865.md)
 
@@ -138,7 +138,7 @@ The correct architectural pattern is not protocol selection but **protocol segre
 ```mermaid
 ```
 
-![The correct architectural pattern is not protocol selection but **protocol segregation with multi-network routing**:](images/diagram_03_the-correct-architectural-pattern-is-not-protocol-acc0.png)
+![The correct architectural pattern is not protocol selection but **protocol segregation with multi-network routing**:](https://raw.githubusercontent.com/Vineet-Sharma-Medium-Stories/Medium-Assets/refs/heads/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/images/diagram_03_the-correct-architectural-pattern-is-not-protocol-acc0.png)
 
 [View Source](https://github.com/Vineet-Sharma-Medium-Stories/Medium-Assets/blob/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/diagram_03_the-correct-architectural-pattern-is-not-protocol-acc0.md)
 
@@ -160,7 +160,7 @@ The following diagram illustrates the complete architecture with clear separatio
 ```mermaid
 ```
 
-![The following diagram illustrates the complete architecture with clear separation of concerns and multi-network support:](images/diagram_04_the-following-diagram-illustrates-the-complete-arc-7b7f.png)
+![The following diagram illustrates the complete architecture with clear separation of concerns and multi-network support:](https://raw.githubusercontent.com/Vineet-Sharma-Medium-Stories/Medium-Assets/refs/heads/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/images/diagram_04_the-following-diagram-illustrates-the-complete-arc-7b7f.png)
 
 [View Source](https://github.com/Vineet-Sharma-Medium-Stories/Medium-Assets/blob/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/diagram_04_the-following-diagram-illustrates-the-complete-arc-7b7f.md)
 
@@ -2660,7 +2660,7 @@ public class PaymentMetrics
 ```mermaid
 ```
 
-![### Card Transaction Flow (VisaNet/Mastercard)](images/diagram_05_card-transaction-flow-visanetmastercard-41a5.png)
+![### Card Transaction Flow (VisaNet/Mastercard)](https://raw.githubusercontent.com/Vineet-Sharma-Medium-Stories/Medium-Assets/refs/heads/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/images/diagram_05_card-transaction-flow-visanetmastercard-41a5.png)
 
 [View Source](https://github.com/Vineet-Sharma-Medium-Stories/Medium-Assets/blob/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/diagram_05_card-transaction-flow-visanetmastercard-41a5.md)
 
@@ -2670,7 +2670,7 @@ public class PaymentMetrics
 ```mermaid
 ```
 
-![### UPI Transaction Flow](images/diagram_06_upi-transaction-flow.png)
+![### UPI Transaction Flow](https://raw.githubusercontent.com/Vineet-Sharma-Medium-Stories/Medium-Assets/refs/heads/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/images/diagram_06_upi-transaction-flow.png)
 
 [View Source](https://github.com/Vineet-Sharma-Medium-Stories/Medium-Assets/blob/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/diagram_06_upi-transaction-flow.md)
 
@@ -2680,7 +2680,7 @@ public class PaymentMetrics
 ```mermaid
 ```
 
-![### Multi-Network Routing Decision Flow](images/diagram_07_multi-network-routing-decision-flow-7e0b.png)
+![### Multi-Network Routing Decision Flow](https://raw.githubusercontent.com/Vineet-Sharma-Medium-Stories/Medium-Assets/refs/heads/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/images/diagram_07_multi-network-routing-decision-flow-7e0b.png)
 
 [View Source](https://github.com/Vineet-Sharma-Medium-Stories/Medium-Assets/blob/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/diagram_07_multi-network-routing-decision-flow-7e0b.md)
 
@@ -2692,14 +2692,14 @@ public class PaymentMetrics
 ```mermaid
 ```
 
-![## Payment Network Comparison: ISO Networks vs. UPI](images/diagram_08_payment-network-comparison-iso-networks-vs-up-30d4.png)
+![## Payment Network Comparison: ISO Networks vs. UPI](https://raw.githubusercontent.com/Vineet-Sharma-Medium-Stories/Medium-Assets/refs/heads/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/images/diagram_08_payment-network-comparison-iso-networks-vs-up-30d4.png)
 
 [View Source](https://github.com/Vineet-Sharma-Medium-Stories/Medium-Assets/blob/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/diagram_08_payment-network-comparison-iso-networks-vs-up-30d4.md)
 
 
 ### Comparison Matrix
 
-![### Comparison Matrix](images/table_03_comparison-matrix.png)
+![### Comparison Matrix](https://raw.githubusercontent.com/Vineet-Sharma-Medium-Stories/Medium-Assets/refs/heads/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/images/table_03_comparison-matrix.png)
 
 [View Source](https://github.com/Vineet-Sharma-Medium-Stories/Medium-Assets/blob/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/table_03_comparison-matrix.md)
 
@@ -2708,7 +2708,7 @@ public class PaymentMetrics
 
 ## .NET 10 Features Summary
 
-![## .NET 10 Features Summary](images/table_04_net-10-features-summary.png)
+![## .NET 10 Features Summary](https://raw.githubusercontent.com/Vineet-Sharma-Medium-Stories/Medium-Assets/refs/heads/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/images/table_04_net-10-features-summary.png)
 
 [View Source](https://github.com/Vineet-Sharma-Medium-Stories/Medium-Assets/blob/main/iso-8583-vs-rest-apis-vs-upi-architecting-multi-network-payment-systems-in-net-10/table_04_net-10-features-summary.md)
 
